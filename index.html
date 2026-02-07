@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>The Lesmus Foundation</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #0b0f14;
+      color: #e5e7eb;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 16px 32px;
+      border-bottom: 1px solid #1f2937;
+    }
+    .logo {
+      width: 42px;
+      height: 42px;
+      background: #1f2937;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 10px;
+      font-size: 12px;
+      color: #9ca3af;
+      margin-right: 10px;
+    }
+    nav a {
+      margin: 0 12px;
+      color: #cbd5f5;
+      text-decoration: none;
+    }
+    nav a:hover {
+      color: white;
+    }
+    .login {
+      border: 1px solid #374151;
+      padding: 8px 14px;
+      border-radius: 8px;
+    }
+    main {
+      max-width: 900px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+    h1, h2 {
+      color: white;
+    }
+    .card {
+      background: #111827;
+      border: 1px solid #1f2937;
+      padding: 20px;
+      border-radius: 12px;
+      margin-bottom: 20px;
+    }
+    button {
+      background: #2563eb;
+      border: none;
+      padding: 8px 14px;
+      border-radius: 8px;
+      color: white;
+      cursor: pointer;
+    }
+    footer {
+      border-top: 1px solid #1f2937;
+      text-align: center;
+      padding: 12px;
+      color: #9ca3af;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div style="display:flex;align-items:center;">
+    <div class="logo">LOGO</div>
+    <strong>The Lesmus Foundation</strong>
+  </div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#articles">Articles</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <div class="login">Login / Sign Up</div>
+</header>
+
+<main id="home">
+  <h1>Medical Journal for Public Good</h1>
+  <p>The Lesmus Foundation is a non-profit medical journal dedicated to ethical research and public health awareness.</p>
+
+  <section id="about" class="card">
+    <h2>About Us</h2>
+    <p>We aim to bridge medical research with community understanding through accessible, peer-inspired publications.</p>
+  </section>
+
+  <section id="articles" class="card">
+    <h2>Journal Articles</h2>
+    <p><strong>Advances in Community Medicine</strong></p>
+    <p><strong>Mental Health in Adolescents</strong></p>
+    <p><strong>Nutrition and Public Health</strong></p>
+  </section>
+
+  <section id="contact" class="card">
+    <h2>Contact</h2>
+    <p>Email: contact@lesmusfoundation.org</p>
+  </section>
+</main>
+
+<footer>
+  © 2026 The Lesmus Foundation · Non-Profit Medical Journal
+</footer>
+
+</body>
+</html>
